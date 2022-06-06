@@ -1,0 +1,15 @@
+.homecontent {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    min-height: 90vh;
+    flex-direction: column;
+
+    &__heading {
+
+    }
+
+    &__job {
+        font-weight: normal;
+    }
+}
