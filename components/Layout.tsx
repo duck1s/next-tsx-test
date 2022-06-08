@@ -4,7 +4,11 @@ import styles from "../styles/components/Layout.module.scss"
 // Components
 import Navigation from './Navigation'
 
-export default function Layout({ children }) {
+type LayoutProps = {
+  children: React.ReactNode,
+};
+
+export default function Layout({children}: LayoutProps) {
     return (
         <>
             <Head>
